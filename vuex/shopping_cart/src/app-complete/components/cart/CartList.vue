@@ -35,7 +35,7 @@ export default {
   computed: {
     ...mapGetters(['cartItems', 'cartTotal', 'cartQuantity'])
   },
-  created() {
+  created() { 
     this.$store.dispatch('getCartItems');
   },
   methods: {
