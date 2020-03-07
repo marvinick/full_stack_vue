@@ -1,4 +1,4 @@
-const InputForm = { 
+const InputForm = {
   template: `
     <div class="input-form">
       <form @submit="submitForm" class="ui form">

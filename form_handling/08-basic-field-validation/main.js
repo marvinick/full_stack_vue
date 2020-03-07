@@ -1,4 +1,4 @@
-const InputForm = { 
+const InputForm = {
   template: `
     <div class="input-form">
       <form @submit="submitForm" class="ui form">
@@ -64,7 +64,7 @@ const InputForm = {
         newItem: undefined,
         email: undefined,
         urgency: undefined,
-        termsAndConditions: undefined
+        termsAndConditions: undefined 
       },
       items: []
     }

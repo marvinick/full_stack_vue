@@ -1,4 +1,4 @@
-const InputForm = { 
+const InputForm = {
   template: `
     <div class="input-form">
       <form @submit="submitForm" class="ui form">
@@ -177,6 +177,7 @@ let apiClient = {
 
 new Vue({
   el: '#app',
+  store,
   components: {
     'input-form': InputForm
   }
